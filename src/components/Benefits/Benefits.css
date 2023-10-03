@@ -1,0 +1,39 @@
+.benefits {
+  background: #fff;
+  display: flex;
+  margin-top: 8.33vw;
+}
+
+.benefits_text h2 {
+  color: #060e1a;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  width: 27.64vw;
+  margin-bottom: 5vw;
+}
+
+.benefits_text li {
+  color: #060e1a;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1vw;
+  line-height: 150%; /* 37.5px */
+}
+
+.benefits_text li {
+  list-style-image: url("../assets/Vector.png");
+}
+
+.benefits_text p {
+  color: #51565e;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 3vw;
+  width: 25.49vw;
+}

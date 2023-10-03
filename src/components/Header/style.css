@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4.16vw;
+  background: #e2ffd0;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+}
+
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2vw;
+  align-items: center;
+}
+
+.header_btn {
+  background-color: rgba(1, 138, 190, 1);
+  color: white;
+  width: 10.76vw;
+  height: 3.75vw;
+  border-radius: 0.41vw;
+  background: #6d28d1;
+}

@@ -1,0 +1,48 @@
+.services {
+  background: linear-gradient(105deg, #d8f0f3 0.1%, #d4d2e4 100%), #c4c4c4;
+  padding-bottom: 7.5vw;
+}
+
+.services h2 {
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  padding-top: 8vw;
+  padding-bottom: 6.2vw;
+}
+
+.services_boxes {
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+}
+
+.boxes {
+  width: 263px;
+  height: 417px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.boxes img {
+  display: flex;
+  margin: 1vw auto;
+}
+
+.box_text {
+  text-align: center;
+}
+
+.box_text h3 {
+  padding: 3vw 2vw 1vw 2vw;
+}
+
+.box_text p {
+  padding: 0 1.74vw 2vw 1.74vw;
+}
+
+.box_text button {
+  margin-bottom: 1vw;
+}
