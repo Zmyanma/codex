@@ -28,14 +28,19 @@ const Price = () => {
       <div className="price_header">
         <h2>Choose your best pricing plan</h2>
         <p>
-          Added for Monthly <button></button> Yearly
+          Added for Monthly
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>{" "}
+          Yearly
         </p>
       </div>
       <div className="price_boxes">
         {PriceItems.map((e) => (
           <div className="boxes">
             <h4>{e.title}</h4>
-            &#8596;
+            <img src={require("../assets/line.png")} alt="" />
             <h3>{e.price}</h3>
             <p>Easy Customizable</p>
             <p>Commercia license</p>

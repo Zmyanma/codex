@@ -1,6 +1,6 @@
 .services {
+  padding-bottom: 20px;
   background: linear-gradient(105deg, #d8f0f3 0.1%, #d4d2e4 100%), #c4c4c4;
-  padding-bottom: 7.5vw;
 }
 
 .services h2 {
@@ -28,6 +28,7 @@
 
 .boxes img {
   display: flex;
+  justify-content: center;
   margin: 1vw auto;
 }
 
@@ -36,13 +37,31 @@
 }
 
 .box_text h3 {
-  padding: 3vw 2vw 1vw 2vw;
+  padding: 0.5vw 2vw 1vw 2vw;
+  color: #060e1a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 37.5px */
 }
 
 .box_text p {
   padding: 0 1.74vw 2vw 1.74vw;
+  color: #51565e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
 }
 
 .box_text button {
   margin-bottom: 1vw;
+  width: 30px;
+  height: 30px;
+  transform: rotate(90deg);
+  flex-shrink: 0;
 }
