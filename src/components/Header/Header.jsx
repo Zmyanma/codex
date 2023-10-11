@@ -8,19 +8,19 @@ const Header = () => {
       <nav>
         <ul className="header_nav">
           <li>
-            <a>Home</a>
+            <a className="underline">Home</a>
           </li>
           <li>
-            <a>Services</a>
+            <a className="underline">Services</a>
           </li>
           <li>
-            <a>Pricing</a>
+            <a className="underline">Pricing</a>
           </li>
           <li>
-            <a>Testimonials</a>
+            <a className="underline">Testimonials</a>
           </li>
           <li>
-            <a>Blog</a>
+            <a className="underline">Blog</a>
           </li>
           <button className="header_btn">Free Trial</button>
         </ul>

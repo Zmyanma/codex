@@ -42,9 +42,9 @@ const Services = () => {
             <div className="box_text">
               <h3>{e.title}</h3>
               <p>{e.text}</p>
-              <buttom>
+              <a href="#">
                 <img src={require("../assets/arrow_link.png")} alt="" />
-              </buttom>
+              </a>
             </div>
           </div>
         ))}

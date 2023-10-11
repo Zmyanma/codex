@@ -1,0 +1,25 @@
+.testimonials_text h2 {
+  color: #060e1a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 57.2px */
+}
+
+.testimonials_text p {
+  color: #51565e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  width: 670px;
+  margin: 30px auto;
+}
+
+.world_map img {
+  width: 100%;
+}
